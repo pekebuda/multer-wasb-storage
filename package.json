@@ -1,0 +1,28 @@
+{
+  "name": "multer-wasb-storage",
+  "version": "0.0.0",
+  "description": "Azure Blobs storage engine for multer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pekebuda/multer-wasb-storage.git"
+  },
+  "keywords": [
+    "Multer",
+    "Azure",
+    "Blob Storage"
+  ],
+  "author": "Fernando Diaz Laclaustra",
+  "license": "MIT",
+  "dependencies": {
+    "digest-stream": "^2.0.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
+  }
+}
