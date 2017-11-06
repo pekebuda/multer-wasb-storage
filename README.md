@@ -13,9 +13,27 @@ that makes it possible to store parsed files into Azure Blob Store
 
 
 ## Usage
+
 Install via npm.
 
 	npm install nodemailer-sendgridv3-transport
+
+
+
+
+## File properties
+
+File objects will expose the following properties:
+
+Key | Description
+--- | ---
+`uri` | A secure URL for fetching the file
+`service` | Name of the Azure Storage account where file will be saved
+`container` | Name of the container to host the file
+`key` | Name of the file within the container
+`size` | The size of the file
+`checksum` | Checksum of the file
+`digestAlgorithm` | Algorithm used for computing the checksum of the file
 
 
 
